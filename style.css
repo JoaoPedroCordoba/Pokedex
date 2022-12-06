@@ -16,41 +16,29 @@ main{
 
 #logo{
     width: 900px;
-    height: 230px;
+    height: 210px;
 }
 
-.pokedex{
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#foto-pokemon{
+    width: 400px;
+    height: 350px;
 }
 
-#pokedex1{
+
+.pokemon{
     display: flex;
     flex-flow: column;
     align-items: center;
 }
-
-label{
-    font-size: 20px;
-    font-weight: bolder;
+#nome-pokemon{
+    color: aliceblue;
+    font-size: xx-large;
     font-family:Arial, Helvetica, sans-serif;
-    color: #F2E96D;
+    font-weight: bolder;
 }
 
-input{
-    width: 200px;
-    height: 30px;
-    background-color: #5A6A8F;
-    border-radius: 20px;
-    border: solid black 2.5px;
-    font-size: large;
-    color: antiquewhite;
-    font-family: Arial, Helvetica, sans-serif;
-}   
-
-input:hover{
-    background-color: #FFF770;
-    color: black;
+#nome-pokemon:hover{
+    color:yellow;
+    cursor: pointer;
 }
+
